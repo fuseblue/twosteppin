@@ -928,11 +928,12 @@
                 {/block:IfSocialIconsActive} 
                 {block:IfFuseCredit} 
                     <div class="fuse-credit">
-                        <a href="http://fuseblue.com/themes/twosteppin" target="_blank">Theme by Fuse</a>
+                        <a href="http://fuseblue.com/themes" target="_blank">Theme by Fuse</a>
                     </div>
                 {/block:IfFuseCredit} 
             </div>
         </header>
+        <!-- <header id="banner" {block:ShowHeaderImage}style="background-image: url({HeaderImage});"{/block:ShowHeaderImage}> -->
         <header id="header">
             <div class="header-meta">
                 <a href="{BlogURL}" class="title">{Title}{block:IfSubTitle}<span>{text:Sub Title}</span>{/block:IfSubTitle}</a>
@@ -1145,6 +1146,69 @@
                                         </div>
                                         </div>
                                         
+                
+                                        
+                                        <!--<footer class="post-footer">-->
+                                    
+                                        <!--    <div class="btm{block:PermalinkPagination} perm cl{/block:PermalinkPagination}">-->
+                                        <!--    </div>-->
+                                            
+                                        
+                                        <!--    <div class="post-header">-->
+                                        <!--        {block:NoteCount} -->
+                                        <!--        <div class="note-count" class="{block:IndexPage}post modal post-photo pp{/block:IndexPage}" data-id="{PostID}" data-notes="{PostNotesURL}" data-pt="photo">-->
+                                        <!--            <a href="{Permalink}" data-id="{PostID}" class="open-post">-->
+                                        <!--                <i class="twa twa-heart-eyes"></i> -->
+                                        <!--                <span>{NoteCountWithLabel}</span>-->
+                                        <!--            </a>-->
+                                        <!--        </div>-->
+                                        <!--        {/block:NoteCount}-->
+                                        <!--    </div>-->
+                                            
+                                        <!--    <div class="post-share">-->
+                                        <!--        <div class="inner">-->
+                                        <!--            <div class="close-post-share">-->
+                                        <!--                <svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">-->
+                                        <!--                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">-->
+                                        <!--                        <g id="Solid-Icons" transform="translate(-2.111111, -50.111111)" fill="#FFFFFF">-->
+                                        <!--                            <g id="Fill-38" transform="translate(2.111111, 50.111111)">-->
+                                        <!--                                <path d="M12.5861,2.38852192 L10.7836781,0.5861 L6.5861,4.78431542 L2.38852192,0.5861 L0.5861,2.38852192 L4.78367808,6.5861 L0.5861,10.7836781 L2.38852192,12.5861 L6.5861,8.38852192 L10.7836781,12.5861 L12.5861,10.7836781 L8.38852192,6.5861 L12.5861,2.38852192 Z"></path>-->
+                                        <!--                            </g>-->
+                                        <!--                        </g>-->
+                                        <!--                    </g>-->
+                                        <!--                </svg>-->
+                                        <!--            </div>-->
+                                                    
+                                        <!--            <div class="social-media">-->
+                                        <!--                <span class="share-facebook tooltip" title="Share on Facebook"><a class="share-icon-facebook" href="https://www.facebook.com/sharer.php?u={Permalink}{block:Title}&t={Title}{/block:Title}" target="_new"></a></span>-->
+                                        <!--                <span class="share-twitter tooltip" title="Share on Twitter"><a class="share-icon-twitter" href="https://twitter.com/intent/tweet?url={ShortURL}" target="_new"></a></span>-->
+                                        <!--                {block:Photo}<span class="share-pinterest tooltip" title="Share on Pinterest"><a class="share-icon-pinterest" target="_new" href="http://pinterest.com/pin/create/button/?url={Permalink}&media={PhotoURL-500}"></a></span>{/block:Photo} -->
+                                        <!--                <span class="share-google tooltip" title="Share on Google+"><a class="share-icon-google-plus" href="https://plus.google.com/share?url={Permalink}" target="_new"></a></span>-->
+                                        <!--            </div>-->
+                                                    
+                                        <!--            <div class="social-media-footer">-->
+                                        <!--                <a class="open-post" href="{Permalink}" data-id="{PostID}">{Permalink}</a>-->
+                                        <!--                <a class="button copy-button" data-clipboard-text="{Permalink}">Copy</a>-->
+                                        <!--            </div>-->
+                                        <!--        </div>  -->
+                                        <!--    </div>-->
+                                        
+                                        
+                                        <!--    <ul class="share">-->
+                                        <!--        <li class="share-toggle tooltip" title="Share this post">-->
+                                        <!--            <a>Share</a>-->
+                                        <!--        </li>-->
+                                        <!--        <li class="post-like tooltip" title="Like this post">-->
+                                        <!--            {LikeButton color="grey" size="15"}-->
+                                        <!--            <span class="like-text">Like</span>-->
+                                        <!--        </li>-->
+                                        <!--        <li class="post-reblog tooltip" title="Reblog this post">-->
+                                        <!--            <a href="{ReblogURL}">Reblog</a>-->
+                                        <!--        </li>-->
+                                        <!--    </ul>-->
+                                    
+                                        <!--</footer>   -->
+                                        
                                         
                                         
                                         {block:PermalinkPage}
@@ -1187,7 +1251,7 @@
         </div>
         <script src="https://code.jquery.com/jquery-2.2.2.js" integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE=" crossorigin="anonymous"></script>
         <script src="http://static.tumblr.com/evx2wil/cx3ocgw4d/plugins.js"></script>
-        <script src="http://static.tumblr.com/evx2wil/bnPocgw3h/ants.js"></script>
+        <script src="http://static.tumblr.com/evx2wil/4Jqoej5t2/ants.js"></script>
         <script src="http://static.tumblr.com/evx2wil/q0Nob3cin/modal.js"></script>
         <script src="http://static.tumblr.com/evx2wil/awmo8avlt/demo.js"></script>
         {block:IfTypeKitID}
